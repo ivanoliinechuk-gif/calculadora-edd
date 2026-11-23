@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Calculadora {
-
+        // Valida el rango [-99999...99999]
     public static boolean esValido(int numero) {
         return numero >= -99999 && numero <= 99999;
     }
@@ -21,7 +21,7 @@ public class Calculadora {
     public static double potencia(int base, int exponente) {
         return Math.pow(base, exponente);
     }
-
+        //bububu 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
